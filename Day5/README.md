@@ -8,6 +8,7 @@ This is the original problem on LeetCode:
 
  Links of similar type of Problems Solved :
  [N Queen Problem – GeeksforGeeks](https://www.geeksforgeeks.org/problems/n-queen-problem0315/1)
+ 
  [N Queens II – LeetCode](https://leetcode.com/problems/n-queens-ii/description/)
 
 
