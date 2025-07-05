@@ -6,7 +6,8 @@ The N Queens puzzle is the problem of placing N chess queens on an N×N chessboa
 This is the original problem on LeetCode:  
 [N Queens - LeetCode](https://leetcode.com/problems/n-queens/)
 
- Links of similar type of Problems Solved :
+ Links of similar types of Problems Solved :
+
  [N Queen Problem – GeeksforGeeks](https://www.geeksforgeeks.org/problems/n-queen-problem0315/1)
  
  [N Queens II – LeetCode](https://leetcode.com/problems/n-queens-ii/description/)
