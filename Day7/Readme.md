@@ -1,7 +1,7 @@
 # 🧩 LeetCode 37 – Sudoku Solver
 
 🔗 [Problem Link](https://leetcode.com/problems/sudoku-solver/)  
-**Difficulty:** Hard  
+
 **Topics:** `Backtracking`, `Recursion`, `Constraint Satisfaction`
 
 ---
