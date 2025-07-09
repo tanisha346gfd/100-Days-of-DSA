@@ -1,50 +1,58 @@
-Sudoku Solver – Leetcode #37
-
-Level: Hard
-
-Tags: Backtracking, Recursion, Constraint Satisfaction
+\# 🧩 LeetCode 37 – Sudoku Solver
 
 
 
-📘 Problem Statement:
+🔗 \[Problem Link](https://leetcode.com/problems/sudoku-solver/)  
 
-Write a program to solve a Sudoku puzzle by filling empty cells. The solution must follow these rules:
+\*\*Difficulty:\*\* Hard  
 
-
-
-Each digit from 1 to 9 must occur once in each row, column, and 3x3 sub-box.
+\*\*Topics:\*\* `Backtracking`, `Recursion`, `Constraint Satisfaction`
 
 
 
-Empty cells are represented by the character '.'.
+---
 
 
 
-💡 Approach:
-
-✔️ Use recursive backtracking to try placing digits from '1' to '9' in each empty cell.
+\## 📘 Problem
 
 
 
-✔️ For each placement, ensure:
+Write a program to solve a 9x9 Sudoku board by filling empty cells (`'.'`) such that:
 
 
 
-It's not repeated in the current row
+\- Each digit 1–9 appears exactly once in every \*\*row\*\*, \*\*column\*\*, and \*\*3x3 box\*\*.
 
 
 
-It's not repeated in the current column
+The board is modified \*\*in-place\*\*.
 
 
 
-It's not repeated in the current 3x3 box
+---
 
 
 
-✔️ If valid, recurse to solve the next cell. If stuck, backtrack.
+\## 💡 Approach
 
 
+
+\- Use \*\*recursive backtracking\*\*.
+
+\- At each empty cell, try digits `'1'` to `'9'`.
+
+\- For each digit:
+
+&nbsp; - Check if it’s safe (not present in current row, column, or 3x3 box).
+
+&nbsp; - If safe, place it and recurse.
+
+&nbsp; - If stuck, \*\*backtrack\*\*.
+
+
+
+---
 
 
 
