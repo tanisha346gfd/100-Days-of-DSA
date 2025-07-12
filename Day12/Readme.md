@@ -1,4 +1,4 @@
-\# 🎯 LeetCode - \[60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) `HARD`
+ 🎯 LeetCode - \[60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) `HARD`
 
 
 
@@ -10,7 +10,7 @@ Given `n` and `k`, return the kᵗʰ permutation sequence of numbers from `1` to
 
 
 
-\## 🧠 Approach: Backtracking (Brute Force)
+ 🧠 Approach: Backtracking (Brute Force)
 
 
 
@@ -18,7 +18,7 @@ This solution uses a recursive backtracking method to generate all permutations 
 
 
 
-\### 🔑 Key Ideas:
+ 🔑 Key Ideas:
 
 
 
