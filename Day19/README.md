@@ -2,7 +2,6 @@
 
 **Platform:** GeeksforGeeks  
 **Link:** [Word Search – GFG](https://www.geeksforgeeks.org/batch/gfg-160-problems/track/recursion-and-backtracking-gfg-160/problem/word-search)
-
 ---
 
 ## 🔍 Problem Description:
