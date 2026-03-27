@@ -20,10 +20,8 @@ public:
         int leftsum = max(0, solve(root->left));   // ignore negative
         int rightsum = max(0, solve(root->right)); // ignore negative
 
-        // Case 1: path through current node
         maxi = max(maxi, leftsum + rightsum + root->val);
 
-        // Case 2: return path upward
         return root->val + max(leftsum, rightsum);
     }
 
